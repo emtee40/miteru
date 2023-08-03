@@ -22,7 +22,7 @@ jobs:
           - 5432:5432
 
       mysql:
-        image: mysql:8.0
+        image: mysql:8.1
         env:
           MYSQL_USER: mysql
           MYSQL_PASSWORD: mysql
